@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Projects</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <section id="projects">
+        <h2>Projects</h2>
+        <div>
+            <ul>
+              <li>
+                <p>Hospital Management System</p>
+              </li>
+              <li>
+                <p>Library-CRUD</p>
+              </li>
+              <li>
+                <p>Business Website</p>
+              </li>
+              <li>
+                <p>Chat App</p>
+              </li>
+              <li>
+                <p>DayCare Management System</p>
+              </li>
+            </ul>
+        </div>
+        <label for="filter">Filter by technology (C#/JavaScript/Java/Python/C++):</label>
+        <input type="text" id="filter" name="filter">
+        <button onclick="applyFilter()">Apply Filter</button>
+
+        <ul id="project-list">
+          <!-- Projects will be dynamically added here -->
+        </ul>
+  </section>
+</body>
+</html>
